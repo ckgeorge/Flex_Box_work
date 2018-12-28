@@ -1,0 +1,32 @@
+
+html body * {
+	box-sizing: border-box;
+}
+
+.container1 {
+	display: flex;
+	width: 100%;
+	justify-content: center;
+	padding: 20px;
+	background-color: yellow;
+}
+
+.container2 {
+	display: flex;
+	width: 100%;
+	justify-content: space-around;
+	padding: 20px;
+}
+.body {
+	display: flex;
+	flex-direction: column;
+	width: 45%;
+	justify-content: space-around;
+	background-color: lightblue;
+}
+
+.inside {
+	background-color: #E78F48;
+	border: 2px solid lightgrey;
+	margin: 20px;	
+}
